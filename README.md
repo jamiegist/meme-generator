@@ -16,7 +16,8 @@
 <h2>Troubleshooting</h2>
 Server error?
 - Try deleting browser cookies.
-- Try flushing sockets (chrome://net-internals/#sockets)
+
+- Still not working? Try flushing sockets (chrome://net-internals/#sockets)
 
 <h2>How to run the app</h2>
 - Navigate to the directory where the file is stored. Make sure to accesss the folder that has the meme_flask.py file in it.
