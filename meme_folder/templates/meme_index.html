@@ -3,13 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="30; url=http://127.0.0.1:5000">
     <title>Meme Generator</title>
-    <link rel="stylesheet" href="styles.css" />
+    <style>
+        body {
+    background-color: #000000;
+    background-repeat: no-repeat;
+}
+
+img {
+    max-height: 70%;
+}
+
+h1 {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+    background-color: #000000;
+}
+
+p {
+    text-align: center;
+    font-family: Georgia, serif;
+    font-size: 1.5em;
+    font-style: normal;
+    font-weight: 1px;
+    color: #ffffff;
+}
+    </style>
 </head>
 <body>
-    <h1>A Website That Generates A Wholesome Meme</h1>
-    <p>Here's your meme!</p>
+    <h1>Wholesome Meme Generator</h1>
+    <p>Here's your meme! This page refreshes after 30 seconds.</p>
+    <p>Source: r/wholesomememes</p>
     <p><img src="{{meme_pic}}"></p>
-    <p>Current subreddit: {{subreddit}}</p>
 </body>
 </html>
